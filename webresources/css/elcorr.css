@@ -1,0 +1,181 @@
+body.elcorr,
+.elcorr h1,
+.elcorr h2,
+.elcorr h3,
+.elcorr h4,
+.elcorr h5,
+.elcorr h6 {
+    font-family: "Varela Round", sans-serif;
+    font-weight: normal;
+    color: #120AC4;
+}
+
+.elcorr h1, 
+.elcorr h2 {
+    color: #0A9DCF;
+}
+
+.elcorr-sidebar {
+    z-index: 3;
+    width: 250px;
+    top: 43px;
+    bottom: 0;
+    height: inherit;
+}
+
+body {
+    background-color: #0058b709;
+}
+
+/* colors start */
+/* #120AC4 / #0A36CF / #0057B7 / #0A9DCF / #0AC4C2 */
+.elcorr-theme-l5 {color:#120AC4 !important; background-color:#e6e8ec !important}
+.elcorr-theme-l4 {color:#120AC4 !important; background-color:#cccccc !important}
+.elcorr-theme-l3 {color:#FFDD00 !important; background-color:#999999 !important}
+.elcorr-theme-l2 {color:#FFF !important; background-color:#1368c3a7 !important}
+.elcorr-theme-l1 {color:#FFDD00 !important; background-color:#1368c3e2 !important}
+.elcorr-theme-d1 {color:#FFDD00 !important; background-color:#000000 !important}
+.elcorr-theme-d2 {color:#FFDD00 !important; background-color:#000000 !important}
+.elcorr-theme-d3 {color:#FFDD00 !important; background-color:#000000 !important}
+.elcorr-theme-d4 {color:#FFDD00 !important; background-color:#000000 !important}
+.elcorr-theme-d5 {color:#FFDD00 !important; background-color:#000000 !important}
+
+.elcorr-theme-light {color:#120AC4 !important; background-color:#ecedf1 !important}
+.elcorr-theme-dark {color:#fff !important; background-color:#000000 !important}
+.elcorr-theme-action {color:#fff !important; background-color:#000000 !important}
+
+.elcorr-theme {
+    color:#FFDD00 !important; background-color:#0057B7 !important
+}
+.elcorr-text-theme {color:#0057B7 !important}
+.elcorr-border-theme {border-color:#0057B7 !important}
+
+.elcorr-hover-theme:hover, .elcorr-hover-white:hover {color:#0057B7 !important; background-color:#FFDD00 !important}
+.elcorr-hover-text-theme:hover {color:#0057B7 !important}
+.elcorr-hover-border-theme:hover {border-color:#0057B7 !important}
+/* colors end */
+footer h4,
+footer p {
+    color: #FFF;
+}
+footer .footer-l1 {
+    background-color: #120AC4;
+}
+footer .footer-l2 {
+    background-color: #0A36CF;
+}
+
+.elcorr-main {
+    transition: margin-left .4s;
+}
+nav.elcorr-sidebar {
+    position: fixed;
+    overflow: auto;
+}
+body.elcorr {
+    font-size: 1.2em;
+}
+.elcorr-selected {
+    cursor: default;
+}
+.elcorr-selected-sub {
+    cursor: pointer;
+}
+.elcorr .elcorr-sidebar .elcorr-child {
+    padding-left: 2em;
+}
+.elcorr-hr {
+    border-top: 5px dotted #120AC4;
+    margin: 0.5em 0.8em;
+}
+
+.w3-hover-white:hover {
+    color: #000 !important;
+    background-color: #fff !important;
+}
+.elcorr-theme .w3-button:hover {
+    color:#0057B7 !important; 
+    background-color:#FFDD00 !important;
+}
+.elcorr-theme .w3-button.elcorr-selected:hover {
+    color: #000 !important;
+    background-color: #ccc !important;
+    cursor: default;
+}
+.elcorr-hover:hover {
+    color: #fff !important;
+    background-color: #0057B7 !important;
+}
+ol.elcorr-n li {
+    list-style-type: inherit;
+}
+ol.elcorr-l li {
+    list-style-type: lower-latin;
+}
+ol.elcorr-r li {
+    list-style-type: lower-roman;
+}
+
+.elcorr-main ul {
+    padding-left: 1em;
+}
+
+.elcorr-main .elcorr-teaser {
+    padding-bottom: 0;
+}
+
+.elcorr-padding-64:first-of-type {
+    padding-top: 64px !important;
+    padding-bottom: 32px !important;
+} 
+.elcorr-padding-64 {
+    padding-top: 1em;
+}
+
+h1.elcorr-text-teal {
+    font-size: 2.2em;
+}
+.elcorr-padding-64 h2 {
+    margin: 0;
+    font-size: 1.6em;
+}
+.elcorr-padding-64 h3 {
+    font-size: 1.4em;
+}
+.elcorr-padding-64 h4 {
+    font-size: 1.2em;
+}
+
+.elcorrFooter .elcorr-footer-line {
+    background-color: #120AC4;
+    padding: 0.4em 16px;
+}
+.elcorrFooter a {
+    text-decoration: none;
+}
+.elcorrFooter span {
+    color: #FFF;
+}
+.elcorrFooter .copy {
+    position: absolute;
+    right: 2em;
+}
+
+.elcorr-content {
+    min-height: 37em;
+}
+
+@media(min-width: 993px) {
+    .elcorr-sidebar.elcorr-collapse {
+        display: block !important;
+    }
+}
+@media (max-width: 992px) {
+    .elcorr-sidebar.elcorr-collapse {
+        display: none;
+    }
+    .elcorr-main {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }  
+}

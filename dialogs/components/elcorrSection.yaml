@@ -1,0 +1,40 @@
+label: elcorrSection
+form:
+  properties:
+    headlineLevel:
+      $type: comboBoxField
+      defaultValue: medium
+      label: elcorrSection.headlineLevel
+      i18n: true
+      defaultValue: h2
+      datasource:
+        $type: optionListDatasource
+        options:
+          - name: big
+            value: h2
+            label: big
+          - name: medium
+            value: h3
+            label: medium
+          - name: small
+            value: h4
+            label: small
+    headline:
+      $type: textField
+      label: elcorrSection.headline
+      i18n: true
+    text:
+      $type: richTextField
+      height: 255
+      i18n: true
+      required: true
+      tables: true
+      source: true
+  layout:
+    $type: tabbedLayout
+    tabs:
+      - name: tabText
+        fields:
+          - name: headlineLevel
+          - name: headline
+          - name: text

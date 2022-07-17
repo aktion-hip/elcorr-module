@@ -1,0 +1,4 @@
+title: elcorrSection
+renderType: freemarker
+templateScript: /elcorr-module/templates/components/elcorrSection.ftl
+dialog: elcorr-module:components/elcorrSection

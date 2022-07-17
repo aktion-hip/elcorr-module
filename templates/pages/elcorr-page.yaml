@@ -1,0 +1,12 @@
+title: elcorr-page
+templateScript: /elcorr-module/templates/pages/elcorr-page.ftl
+renderType: freemarker
+dialog: elcorr-module:pages/elcorr-page
+visible: true
+
+areas:
+  section:
+    renderType: freemarker
+    availableComponents:
+      elcorrSection:
+        id: elcorr-module:components/elcorrSection

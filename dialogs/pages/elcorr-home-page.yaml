@@ -1,0 +1,70 @@
+label: elcorr-home-page
+form:
+  properties:
+    title:
+      $type: textField
+      label: Title
+      i18n: true
+    navigationTitle:
+      $type: textField
+      label: Navigation title
+      i18n: true
+    windowTitle:
+      $type: textField
+      label: Window title
+      i18n: true
+    hideInNav:
+      $type: checkBoxField
+      defaultValue: false
+      label: Hide in navigation
+      buttonLabel: Hide
+    keywords:
+      $type: textField
+      label: Keywords
+      i18n: true
+      rows: 3
+    description:
+      $type: textField
+      label: Description
+      i18n: true
+      rows: 5
+    teaser:
+      $type: richTextField
+      label: elcorr.page.teaser
+      height: 255
+      i18n: true
+      tables: true
+    footerText:
+      $type: textField
+      label: elcorr.page.footer.text
+      i18n: true
+    footerLink:
+      $type: pageLinkField
+      label: elcorr.page.footer.link
+      i18n: true
+      showOptions: true
+      textInputAllowed: true
+  layout:
+    $type: tabbedLayout
+    tabs:
+      tabMain:
+        label: Main tab
+        fields:
+          - name: title
+          - name: navigationTitle
+          - name: windowTitle
+          - name: hideInNav
+      tabMeta:
+        label: Metadata
+        fields:
+          - name: keywords
+          - name: description
+      tabTeaser:
+        label: eclorr-page-teaser
+        fields:
+          - name: teaser
+      tabFooter:
+        label: eclorr-page-footer
+        fields:
+          - name: footerText
+          - name: footerLink
