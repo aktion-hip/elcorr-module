@@ -1,5 +1,14 @@
 [#assign root = cmsfn.root(content, "mgnl:page")!content ]
 
+<!-- language switch: start -->
+<div class="elcorr-lang">
+    <select name="language" class="elcorr-lang-select" onchange="elcorr_language(this, '${root}')">
+        <option value="en" [#if (cmsfn.language() == "en")]selected[/#if]>English</option>
+        <option value="uk" [#if (cmsfn.language() == "uk")]selected[/#if]>Ukrainian</option>
+    </select>
+</div>
+<!-- language switch: end -->
+
 <!-- Navbar -->
 <div class="w3-top">
     <div class="w3-bar elcorr-theme w3-top w3-left-align w3-large">

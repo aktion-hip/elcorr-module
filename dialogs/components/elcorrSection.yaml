@@ -5,7 +5,6 @@ form:
       $type: comboBoxField
       defaultValue: medium
       label: elcorrSection.headlineLevel
-      i18n: true
       defaultValue: h2
       datasource:
         $type: optionListDatasource

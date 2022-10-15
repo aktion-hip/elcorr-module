@@ -3,29 +3,30 @@ form:
   properties:
     title:
       $type: textField
-      label: Title
+      label: elcorr.page.title
       i18n: true
     navigationTitle:
       $type: textField
-      label: Navigation title
+      label: elcorr.page.title.navigation
       i18n: true
     windowTitle:
       $type: textField
-      label: Window title
+      label: elcorr.page.title.window
       i18n: true
     hideInNav:
       $type: checkBoxField
       defaultValue: false
-      label: Hide in navigation
+      label: elcorr.page.lbl.hide
       buttonLabel: Hide
+      i18n: true
     keywords:
       $type: textField
       label: Keywords
-      i18n: true
+      i18n: false
       rows: 3
     description:
       $type: textField
-      label: Description
+      label: elcorr.page.description
       i18n: true
       rows: 5
     teaser:
@@ -49,3 +50,8 @@ form:
         fields:
           - name: keywords
           - name: description
+      tabTease:
+        label: Teaser
+        fields:
+          - name: teaser
+
