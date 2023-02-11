@@ -1,0 +1,24 @@
+templates:
+  class: info.magnolia.module.site.templates.ReferencingPrototypeTemplateSettings
+  availability:
+    templates:
+      home:
+        id: elcorr-module:pages/elcorr-home-page
+      page:
+        id: elcorr-module:pages/elcorr-page
+theme:
+  name: elcorr-theme
+i18n:
+  class: info.magnolia.cms.i18n.DefaultI18nContentSupport
+  enabled: true
+  fallbackLocale: en
+  locales:
+    en:
+      enabled: true
+      language: en
+    uk:
+      enabled: true
+      language: uk
+    de:
+      enabled: true
+      language: de

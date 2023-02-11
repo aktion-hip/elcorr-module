@@ -79,6 +79,20 @@ body.elcorr {
     min-height: 37em;
 }
 
+.elcorr-content table {
+    border-style: hidden;
+    border-collapse: collapse;
+}
+
+.elcorr-content tr {
+    border-bottom: 2px solid;
+}
+
+.elcorr-content td {
+    border: none;
+    padding-top: 0.3em;
+}
+
 nav.elcorr-sidebar {
     position: fixed;
     overflow: auto;
@@ -170,7 +184,7 @@ h1.elcorr-text-teal {
 }
 
 .elcorr-lang {
-    position: absolute;
+    position: fixed;
     top: 0;
     z-index: 5;
 }
