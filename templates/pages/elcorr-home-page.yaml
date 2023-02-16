@@ -5,7 +5,8 @@ dialog: elcorr-module:pages/elcorr-home-page
 visible: true
 
 areas:
-  renderType: freemarker
-  availableComponents:
-    elcorrSection:
-      id: elcorr-module:components/elcorrSection
+  section:
+    renderType: freemarker
+    availableComponents:
+      elcorrSection:
+        id: elcorr-module:components/elcorrSection
