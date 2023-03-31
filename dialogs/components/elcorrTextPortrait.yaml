@@ -1,0 +1,26 @@
+label: elcorrTextPortrait
+form:
+  properties:
+    text:
+      $type: richTextField
+      height: 255
+      i18n: true
+      required: true
+      tables: true
+      source: true
+    portrait:
+      label: Portrait
+      $type: damLinkField
+      required: true
+    caption:
+      $type: textField
+      label: Image Caption
+      i18n: true
+  layout:
+    $type: tabbedLayout
+    tabs:
+      - name: tabText
+        fields:
+          - name: text
+          - name: portrait
+          - name: caption

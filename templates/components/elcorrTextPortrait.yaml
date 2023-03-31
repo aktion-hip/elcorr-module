@@ -1,0 +1,4 @@
+title: elcorrTextPortrait
+renderType: freemarker
+templateScript: /elcorr-module/templates/components/elcorrTextPortrait.ftl
+dialog: elcorr-module:components/elcorrTextPortrait
