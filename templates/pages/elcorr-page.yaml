@@ -10,3 +10,5 @@ areas:
     availableComponents:
       elcorrSection:
         id: elcorr-module:components/elcorrSection
+      elcorrTextPortrait:
+        id: elcorr-module:components/elcorrTextPortrait
